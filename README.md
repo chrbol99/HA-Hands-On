@@ -51,17 +51,17 @@
 **8.** Agregue un nuevo target con los siguientes parámetros y guarde:
 
 
-**Name:** AuroraAZ
-**Resource type:** aws:rds-cluster
-**Resource tags:** AppName=ha-web-app
+- **Name:** AuroraAZ
+- **Resource type:** aws:rds-cluster
+- **Resource tags:** AppName=ha-web-app
 
 
 **9.** Agregue una acción con los siguientes parámetros y guarde:
 
 
-**Name:** Stopinstance
-**Action type:** aws:ec2:stop-instances
-**Target:** EC2 AZ
+- **Name:** Stopinstance
+- **Action type:** aws:ec2:stop-instances
+- **Target:** EC2 AZ
 
 
 <img width="772" alt="image" src="https://user-images.githubusercontent.com/102708806/194207790-781c8cee-f5a6-4ec1-8452-0a6baf3a0861.png">
@@ -69,9 +69,9 @@
 **10.** Agregue otra acción con los siguientes parámetros y guarde:
 
 
-**Name:** FailOverAurora
-**Action type:** aws:rds:failover-db-cluster
-**Target:** AuroraAZ
+- **Name:** FailOverAurora
+- **Action type:** aws:rds:failover-db-cluster
+- **Target:** AuroraAZ
 
 
 **11.** Revisar que la página esté funcionando, que hayan 2 instancias en us-east-1a y 2 en us-east-1b y revisar como se encuentra actualmente cluster de Aurora RDS.
