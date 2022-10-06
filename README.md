@@ -77,22 +77,23 @@
 - **Action type:** aws:rds:failover-db-cluster
 - **Target:** AuroraAZ
 
+**11.** Crear experiment template.
 
-**11.** Revisar que la página esté funcionando, que hayan 2 instancias en us-east-1a y 2 en us-east-1b y revisar como se encuentra actualmente cluster de Aurora RDS.
+**12.** Revisar que la página esté funcionando, que hayan 2 instancias en us-east-1a y 2 en us-east-1b y revisar como se encuentra actualmente cluster de Aurora RDS.
 
 <img width="967" alt="image" src="https://user-images.githubusercontent.com/102708806/194208002-fea09984-39b0-4551-96b7-216836c27a96.png">
 
 En este ejemplo la instancia que funciona como escritura se encuentra en la az us-east-1
 
-**12.** Ir a servicio FIS, buscar en experiment templates la plantilla creada y seleccionar.
+**13.** Ir a servicio FIS, buscar en experiment templates la plantilla creada y seleccionar.
 
-**13.** Start experiment.
+**14.** Start experiment.
 
-**14.** Refrescar constantemente página Wordpress. Mirar cuantas instancias hay disponibles, ver RDS que cambiaron los endpoints
+**15.** Refrescar constantemente página Wordpress. Mirar cuantas instancias hay disponibles, ver RDS que cambiaron los endpoints
 
 <img width="951" alt="image" src="https://user-images.githubusercontent.com/102708806/194208195-60e35b32-05fc-4c9f-81f0-d73fde30b1c7.png">
 
 La instancia de escritura ahora se encuentra en us-east-1b
 
-**15.** Limpiar recursos como muestra en: https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/cleanup-resources
+**16.** Limpiar recursos como muestra en: https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/cleanup-resources
 
