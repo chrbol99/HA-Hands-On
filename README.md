@@ -41,6 +41,7 @@
 <img width="946" alt="image" src="https://user-images.githubusercontent.com/102708806/194207332-88abd32f-9a40-4911-88e0-04a041577ca5.png">
 
 **6.** Agregue una descripción como "StopInstancesInAz".
+
 **7.** Agregue un target con los siguientes atributos y guarde:
 
 
