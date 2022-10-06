@@ -77,7 +77,7 @@
 - **Action type:** aws:rds:failover-db-cluster
 - **Target:** AuroraAZ
 
-**11.** Crear experiment template.
+**11.** Seleccionar Role FisWorkshopServiceRole creado previamente y luego Crear experiment template.
 
 **12.** Revisar que la página esté funcionando, que hayan 2 instancias en us-east-1a y 2 en us-east-1b y revisar como se encuentra actualmente cluster de Aurora RDS.
 
