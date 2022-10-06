@@ -8,13 +8,19 @@
    
    ![image](https://user-images.githubusercontent.com/102708806/194206344-3284a001-bc9d-4b39-819c-0510885c5ca6.png)
    
-   **2.b** Dirijase hasta "advanced details" en la sección "user data" y copie hasta el final la siguiente línea de código:
+   **2.b** Seleccione un nombre como "CacheCorrector"
+   
+   **2.c** Dirijase hasta "advanced details" en la sección "user data" y copie hasta el final la siguiente línea de código:
    
    
-   'sed -i '600s/esc_url_raw/filter_var/' /var/www/wordpress/wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php'
+   ```
+   sed -i '600s/esc_url_raw/filter_var/' /var/www/wordpress/wordpress/wp-content/plugins/w3-total-cache/DbCache_WpdbInjection_QueryCaching.php
+   ```
    
    
-   **2.c** Pruebe accediendo al URL del balanceador de carga ELB.
+   **2.d** Pruebe accediendo al URL del balanceador de carga ELB y debería funcionar el panel de administrador.
+   
+   **2.d** Elimine instancia "CacheCorrector"
    
 **3.** Continue con los pasos descritos en https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/application/lab7
    hasta módulo 8 desde este paso:
