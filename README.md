@@ -6,7 +6,7 @@
    hasta módulo 8.
    
    
-**2.** Cuando configure el cache dentro del sitio de Wordpress, recibirá un error 502 bad gateway, para solucionar:
+**2.** Mientras configure el cache dentro del sitio de Wordpress (paso 8 del link anterior), recibirá un error 502 bad gateway, para solucionar:
 
    &nbsp; &nbsp; **2.a** Seleccione una de las instancias creadas por el autoscalling group creado previamente y seleccione "launch more like this". 
    
