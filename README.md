@@ -29,7 +29,7 @@
 
    
 **3.** Continue con los pasos descritos en https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/application/lab7
-   hasta módulo 8 desde este paso:
+   a partir del módulo 8 desde este paso:
    
    <img width="1090" alt="image" src="https://user-images.githubusercontent.com/102708806/194206957-2738d4bf-861c-41eb-ab53-91664e8704b8.png">
 
