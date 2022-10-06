@@ -96,5 +96,10 @@ En este ejemplo la instancia que funciona como escritura se encuentra en la az u
 
 La instancia de escritura ahora se encuentra en us-east-1b
 
+Así luce la página:
+
+![image](https://user-images.githubusercontent.com/102708806/194221593-fe720bf4-ea8b-4cb7-84d1-912f7e2a6549.png)
+
+
 **16.** Limpiar recursos como muestra en: https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/cleanup-resources
 
