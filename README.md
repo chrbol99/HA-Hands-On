@@ -39,12 +39,12 @@
 **6.** Agregue una descripción como "StopInstancesInAz".
 **7.** Agregue un target con los siguientes atributos y guarde:
 
-'''
-**Name:** EC2AZ
-**Resource type:** aws:ec2:instance
-**Resource tags:** AppName=ha-web-app
-**Resource filters:** Placement.AvailabilityZone=us-east-1a , State.Name= running
-'''
+
+- **Name:** EC2AZ
+- **Resource type:** aws:ec2:instance
+- **Resource tags:** AppName=ha-web-app
+- **Resource filters:** Placement.AvailabilityZone=us-east-1a , State.Name= running
+
 
 <img width="443" alt="image" src="https://user-images.githubusercontent.com/102708806/194207617-9a5b300b-5b99-46a5-b3ee-c5e02ed53fdc.png">
 
