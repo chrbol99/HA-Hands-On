@@ -22,7 +22,7 @@
    ```
    
    
-    &nbsp; &nbsp; **2.d** Pruebe accediendo al URL del balanceador de carga ELB y debería funcionar el panel de administrador.
+   &nbsp; &nbsp; **2.d** Pruebe accediendo al URL del balanceador de carga ELB y debería funcionar el panel de administrador.
    
    &nbsp; &nbsp; **2.e** Elimine instancia "CacheCorrector"
    
