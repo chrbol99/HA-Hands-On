@@ -8,13 +8,13 @@
    
 **2.** Cuando configure el cache dentro del sitio de Wordpress, recibirá un error 502 bad gateway, para solucionar:
 
-   **2.a** Seleccione una de las instancias creadas por el autoscalling group creado previamente y seleccione "launch more like this". <br />
+   &nbsp; &nbsp; **2.a** Seleccione una de las instancias creadas por el autoscalling group creado previamente y seleccione "launch more like this". 
    
    ![image](https://user-images.githubusercontent.com/102708806/194206344-3284a001-bc9d-4b39-819c-0510885c5ca6.png)
    
-   **2.b** Seleccione un nombre como "CacheCorrector"
+   &nbsp; &nbsp; **2.b** Seleccione un nombre como "CacheCorrector" 
    
-   **2.c** Dirijase hasta "advanced details" en la sección "user data" y copie hasta el final la siguiente línea de código:
+   &nbsp; &nbsp; **2.c** Dirijase hasta "advanced details" en la sección "user data" y copie hasta el final la siguiente línea de código:
    
    
    ```
@@ -22,9 +22,9 @@
    ```
    
    
-   **2.d** Pruebe accediendo al URL del balanceador de carga ELB y debería funcionar el panel de administrador.
+    &nbsp; &nbsp; **2.d** Pruebe accediendo al URL del balanceador de carga ELB y debería funcionar el panel de administrador.
    
-   **2.e** Elimine instancia "CacheCorrector"
+   &nbsp; &nbsp; **2.e** Elimine instancia "CacheCorrector"
    
 
    
