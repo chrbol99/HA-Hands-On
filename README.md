@@ -1,5 +1,7 @@
 # HA-Hands-On
 
+##NOTA: Esto es un laboratorio, no usar para fines productivos.##
+
 **1.** Empezar a realizar pasos del hands-on https://catalog.us-east-1.prod.workshops.aws/workshops/5ceb632a-c07f-44a5-a3bd-b8f616a631c0/en-US/application/lab7
    hasta módulo 8.
 **2.** Cuando configure el cache dentro del sitio de Wordpress, recibirá un error 502 bad gateway, para solucionar:
@@ -48,29 +50,29 @@
 
 **8.** Agregue un nuevo target con los siguientes parámetros y guarde:
 
-'''
+
 **Name:** AuroraAZ
 **Resource type:** aws:rds-cluster
 **Resource tags:** AppName=ha-web-app
-'''
+
 
 **9.** Agregue una acción con los siguientes parámetros y guarde:
 
-'''
+
 **Name:** Stopinstance
 **Action type:** aws:ec2:stop-instances
 **Target:** EC2 AZ
-'''
+
 
 <img width="772" alt="image" src="https://user-images.githubusercontent.com/102708806/194207790-781c8cee-f5a6-4ec1-8452-0a6baf3a0861.png">
 
 **10.** Agregue otra acción con los siguientes parámetros y guarde:
 
-```
+
 **Name:** FailOverAurora
 **Action type:** aws:rds:failover-db-cluster
 **Target:** AuroraAZ
-```
+
 
 **11.** Revisar que la página esté funcionando, que hayan 2 instancias en us-east-1a y 2 en us-east-1b y revisar como se encuentra actualmente cluster de Aurora RDS.
 
